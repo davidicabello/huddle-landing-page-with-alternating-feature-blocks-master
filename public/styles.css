@@ -220,10 +220,20 @@ p {
     padding: 100px;
 }
 
-.footer__main ul li {
+.footer__main ul li{
     text-decoration: none;
     list-style: none;
     line-height: 40px;
+    color: white;
+}
+
+.footer__main a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer__main a:hover{
+    text-decoration: underline;
 }
 
 .footer__info{
