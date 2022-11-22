@@ -30,6 +30,7 @@ font-family: 'Open Sans', sans-serif;
 
 body {
     font-family: var(--open-sans);
+    background-color: var(--Very-Pale-Cyan);
 }
 
 p {
@@ -48,8 +49,8 @@ p {
 
 .main__section {
     min-height: 100vh;
-    background-color: var(--Very-Pale-Cyan);
     background: url(images/bg-hero-desktop.svg);
+    background-size: cover;
 }
 
 .main__logo {
@@ -145,7 +146,7 @@ p {
 }
 
 .info__cards {
-    margin-top: 50px;
+    padding: 100px;
     display: flex;
     background: white;
 }
