@@ -35,7 +35,6 @@ body {
 
 p {
     font-family: var(--poppins);
-    font-weight: 400;
     color: var(--Grayish-Blue);
 }
 
@@ -180,6 +179,11 @@ p {
     display: flex;
     flex-direction: column;
     width: 40%;
+    padding: 50px;
+}
+
+.card__title {
+    margin-bottom: 20px;
 }
 
 .card_img {
@@ -231,8 +235,18 @@ p {
     .card__text {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         text-align: center;
         margin-top: 60px;
+        line-height: 25px;
+        padding: 30px;
+    }
+
+    .card__title {
+        margin-bottom: 20px;
+    }
+
+    .card__para {
+        width: 100%;
     }
 }
