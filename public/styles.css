@@ -219,33 +219,32 @@ p {
     padding: 100px;
 }
 
-.footer__main ul{
+.footer__main ul {
     padding: 0;
 }
 
-.footer__main ul li{
+.footer__main ul li {
     text-decoration: none;
     list-style: none;
     line-height: 40px;
     color: white;
 }
 
-.footer__main a{
+.footer__main a {
     color: white;
     text-decoration: none;
 }
 
-.footer__main a:hover{
+.footer__main a:hover {
     text-decoration: underline;
 }
 
-.footer__info{
+.footer__info {
     padding: 100px;
 }
 
 .footer__logo {
-    stroke: white;
-    fill: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(125deg) brightness(103%) contrast(103%);
 }
 
 footer {
@@ -254,6 +253,11 @@ footer {
 
 
 @media only screen and (max-width:1440px) {
+
+    .main__section {
+        background: url(images/bg-hero-mobile.svg);
+        background-size: cover;
+    }
 
     .nav__button {
         height: 40px;
@@ -307,7 +311,7 @@ footer {
 
     .footer__main {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
     }
 
     .contact {
