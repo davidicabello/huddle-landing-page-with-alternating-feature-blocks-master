@@ -147,8 +147,10 @@ p {
 
 .info__cards {
     padding: 100px;
-    display: flex;
     background: white;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
 }
 
 .card__main {
@@ -165,18 +167,17 @@ p {
 .card__text {
     display: flex;
     flex-direction: column;
-
+    width: 40%;
 }
 
 .card_img {
-    display: flex;
-    width: 60%;
-    max-width: 550px;
+    width: 40%;
+    max-width: 500px;
 }
 
 .card__img {
     width: 100%;
-    display: block;
+    display: inline-block;
 }
 
 
