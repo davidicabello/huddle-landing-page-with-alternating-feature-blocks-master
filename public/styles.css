@@ -219,6 +219,10 @@ p {
     padding: 100px;
 }
 
+.footer__main ul{
+    padding: 0;
+}
+
 .footer__main ul li{
     text-decoration: none;
     list-style: none;
