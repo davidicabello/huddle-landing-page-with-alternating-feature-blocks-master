@@ -164,17 +164,16 @@ p {
 .card__text {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap-reverse;
+
 }
 
-.card__img {
+.card_img {
     display: flex;
-    flex-wrap: wrap-reverse;
     width: 60%;
     max-width: 550px;
 }
 
-.card_img {
+.card__img {
     width: 100%;
     display: block;
 }
